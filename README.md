@@ -6,7 +6,8 @@
 ## Tasks
 - [X] Delete unecessary preinstalled code 
 - [X] Install Libraries
-- [ ] Setup Router 
+- [ ] Setup Router
+- [ ] Design Crud Interface | Outside VSCODE
 
 ## Libraries
 - React
