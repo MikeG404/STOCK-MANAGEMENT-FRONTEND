@@ -7,7 +7,7 @@
 - [X] Delete unecessary preinstalled code 
 - [X] Install Libraries
 - [X] Setup Router
-- [ ] Design Crud Interface | Outside VSCODE
+- [X] Design Nav and Crud Interface | Outside VSCODE
 
 ## Libraries
 - React
