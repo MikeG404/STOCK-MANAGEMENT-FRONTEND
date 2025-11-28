@@ -6,7 +6,7 @@
 ## Tasks
 - [X] Delete unecessary preinstalled code 
 - [X] Install Libraries
-- [ ] Setup Router
+- [X] Setup Router
 - [ ] Design Crud Interface | Outside VSCODE
 
 ## Libraries
@@ -14,3 +14,4 @@
 - React-Router
 - React-Hook-Form
 - Axios
+- TailwindCSS

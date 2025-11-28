@@ -1,7 +1,7 @@
 function DashboardRoute() {
  
     return (
-        <div>Welcome to the Dashboard Page</div>
+        <div className="text-red-600 text-9xl">Welcome to the Dashboard Page</div>
     )
 }
 
