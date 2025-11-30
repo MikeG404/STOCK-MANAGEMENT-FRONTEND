@@ -1,4 +1,4 @@
-# Stock Manaagement Frontend
+# Stock Management Frontend
 
 ## Features
 - CRUD on stock
