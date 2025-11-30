@@ -6,10 +6,12 @@ import DashboardRoute from './routes/Dashboard.route'
 function App() {
 
   return (
-    <Routes>
-      <Route path="/" element={<HomeRoute />} />
-      <Route path="/dashboard" element={<DashboardRoute />} />
-    </Routes>
+    <main className='h-screen p-4'>
+      <Routes>
+        <Route path="/" element={<HomeRoute />} />
+        <Route path="/dashboard" element={<DashboardRoute />} />
+      </Routes>
+    </main>
   )
 }
 
