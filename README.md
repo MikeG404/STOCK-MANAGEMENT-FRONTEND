@@ -11,7 +11,8 @@
 - [ ] Handle the navigation between features
     - [X] Add the navigation to the left
         - [X] Add a dynamic link that change the feature section
-        - [ ] Put a base route | Currently we arrive to /dashboard instead of /dashboard/articles
+        - [X] Put a base route | Currently we arrive to /dashboard instead of /dashboard/articles
+        - [X] Profesionnalize Router with a router const for good practice
     - [X] Add the feature section to the right
         - [X] Choose the data to display in the table
         - [X] Make my own table component
