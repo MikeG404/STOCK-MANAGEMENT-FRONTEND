@@ -1,14 +1,14 @@
 import FeatureSection from "../components/sections/FeatureSection";
 import NavFeatureSection from "../components/sections/NavFeatureSection";
 
-function DashboardRoute() {
+function DashboardLayout() {
 
     return (
-        <div className="h-full flex gap-4 p-4">
+        <main className="h-screen flex gap-4 p-4">
             <NavFeatureSection />
             <FeatureSection />
-        </div>
+        </main>
     )
 }
 
-export default DashboardRoute;
+export default DashboardLayout;

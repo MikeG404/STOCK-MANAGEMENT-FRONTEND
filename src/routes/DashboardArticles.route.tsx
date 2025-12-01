@@ -11,13 +11,13 @@ const objectKeys = Object.keys(data[0]);
 
 function DashboardArticlesRoute() {
     return (
-        <div>
+        <main>
             <Table keys={objectKeys}>
                 {data.map((article) => (
                     <TableRow key={article.id} article={article} />
                 ))}
             </Table>
-        </div>
+        </main>
     );
 }
 
