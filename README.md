@@ -10,10 +10,11 @@
 - [X] Design Nav and Crud Interface | Outside VSCODE
 - [ ] Handle the navigation between features
     - [X] Add the navigation to the left
-        - [X]  Add a dynamic link that change the feature section
+        - [X] Add a dynamic link that change the feature section
+        - [ ] Put a base route | Currently we arrive to /dashboard instead of /dashboard/articles
     - [X] Add the feature section to the right
-        - [ ] What data to use in Table?
-        - [ ] Make the table structure | Should I use a datatable? | Maybe use a pre-fabricated table
+        - [X] Choose the data to display in the table
+        - [X] Make my own table component
 
 ## Libraries
 - React
