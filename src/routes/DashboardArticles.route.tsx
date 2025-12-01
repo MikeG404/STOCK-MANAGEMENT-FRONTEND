@@ -1,3 +1,4 @@
+import Button from "../components/Button";
 import Table from "../components/table/Table";
 import TableRow from "../components/table/TableRow";
 
@@ -11,13 +12,16 @@ const objectKeys = Object.keys(data[0]);
 
 function DashboardArticlesRoute() {
     return (
-        <main>
+        <div className="h-full relative">
             <Table keys={objectKeys}>
                 {data.map((article) => (
                     <TableRow key={article.id} article={article} />
                 ))}
             </Table>
-        </main>
+            <div className="absolute bottom-4 right-4">
+                <Button />
+            </div>
+        </div>
     );
 }
 
