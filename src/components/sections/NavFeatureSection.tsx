@@ -1,16 +1,20 @@
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 
 function NavFeatureSection() {
     return (
         <section className="max-w-xs h-full flex-1 p-8 border border-black rounded-2xl">
             <div>
                 <ul>
-                    <Link to="/dashboard/articles">
+                    <NavLink 
+                        to="/dashboard/articles"
+                        className={({ isActive }) => isActive ? 'text-blue-500' : ''}>
                         <li>Articles</li>
-                    </Link>
-                    <Link to="/dashboard/dynamic-test">
+                    </NavLink>
+                    <NavLink 
+                        to="/dashboard/dynamic-test"
+                        className={({ isActive }) => isActive ? 'text-blue-500' : ''}>
                         <li>Dynamic Test</li>
-                    </Link>
+                    </NavLink>
                 </ul>
             </div>
         </section>
