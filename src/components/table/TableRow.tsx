@@ -9,8 +9,12 @@ function TableRow({ article }) {
       <td className="text-gray-500">{article.description}</td>
       <td className="text-gray-500">{article.quantity}</td>
       <td className="flex gap-2 py-3">
-        <Button variant="edit"><SquarePen size={18}/></Button>
-        <Button variant="delete"><PackageMinus size={18} /></Button>
+        <Button variant="edit">
+          <SquarePen size={18}/>
+        </Button>
+        <Button variant="delete">
+          <PackageMinus size={18} />
+        </Button>
       </td>  
     </tr>
   );
