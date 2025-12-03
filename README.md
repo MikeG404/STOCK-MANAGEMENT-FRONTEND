@@ -19,8 +19,8 @@
     - [X] Add the feature section to the right
         - [X] Choose the data to display in the table
         - [X] Make my own table component
-        - [ ] Customize CSS
-            - [ ] Customize Table
+        - [X] Customize CSS
+            - [X] Customize Table
         - [X] Add Crud Buttons
             - [X] Delete
             - [X] Update
