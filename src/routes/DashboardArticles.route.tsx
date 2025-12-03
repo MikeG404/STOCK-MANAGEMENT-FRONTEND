@@ -19,7 +19,9 @@ function DashboardArticlesRoute() {
                 ))}
             </Table>
             <div className="absolute bottom-4 right-4">
-                <Button />
+                <Button variant="create">
+                    Create Article
+                </Button>
             </div>
         </div>
     );

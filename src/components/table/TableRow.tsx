@@ -7,8 +7,8 @@ function TableRow({ article }) {
       <td>{article.title}</td>
       <td>{article.description}</td>
       <td>{article.quantity}</td>
-      <td><Button /></td>  
-      <td><Button /></td>  
+      <td><Button variant="edit">Edit</Button></td>  
+      <td><Button variant="delete">Delete</Button></td>  
     </tr>
   );
 }
