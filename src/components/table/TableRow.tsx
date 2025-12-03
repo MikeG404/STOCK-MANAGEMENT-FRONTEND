@@ -1,3 +1,5 @@
+import Button from "../Button";
+
 function TableRow({ article }) {
   return (
     <tr>
@@ -5,6 +7,8 @@ function TableRow({ article }) {
       <td>{article.title}</td>
       <td>{article.description}</td>
       <td>{article.quantity}</td>
+      <td><Button /></td>  
+      <td><Button /></td>  
     </tr>
   );
 }
