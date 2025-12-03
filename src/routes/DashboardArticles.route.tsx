@@ -1,3 +1,4 @@
+import { PackagePlus } from "lucide-react";
 import Button from "../components/Button";
 import Table from "../components/table/Table";
 import TableRow from "../components/table/TableRow";
@@ -20,7 +21,7 @@ function DashboardArticlesRoute() {
             </Table>
             <div className="absolute bottom-4 right-4">
                 <Button variant="create">
-                    Create Article
+                    <PackagePlus />
                 </Button>
             </div>
         </div>
