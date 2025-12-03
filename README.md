@@ -20,6 +20,7 @@
         - [X] Choose the data to display in the table
         - [X] Make my own table component
         - [ ] Customize CSS
+            - [ ] Customize Table
         - [X] Add Crud Buttons
             - [X] Delete
             - [X] Update

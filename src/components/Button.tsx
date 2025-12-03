@@ -6,10 +6,17 @@ const colorClasses = {
     delete: "text-white bg-red-500 hover:bg-red-700",
 }
 
-function Button({children, variant = 'create', className = '', ...props}) {
+const sizeClasses = {
+    small: "text-sm py-2 px-4",
+    medium: "text-md py-3 px-5",
+    large: "text-lg py-4 px-6",
+}
+
+function Button({children, size = 'small', variant = 'create', className = '', ...props}) {
 
     const buttonClasses = clsx(
-        "font-bold py-4 px-6 rounded-full",
+        "rounded-2xl",
+        sizeClasses[size],
         colorClasses[variant],
         className
     );

@@ -20,7 +20,7 @@ function DashboardArticlesRoute() {
                 ))}
             </Table>
             <div className="absolute bottom-4 right-4">
-                <Button variant="create">
+                <Button size="large" variant="create">
                     <PackagePlus />
                 </Button>
             </div>

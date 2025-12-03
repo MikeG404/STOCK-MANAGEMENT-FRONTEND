@@ -2,15 +2,16 @@
 function Table({ keys, children }) {
     
     return (
-        <table>
+        <table className="min-w-full divide-y divide-gray-300">
             <thead>
                 <tr>
                     {keys.map((key) => (
-                        <th key={key}>{key}</th>
+                        <th scope="col" className="text-left text-sm py-4 font-semibold" key={key}>{key}</th>
                     ))}
+                    <th scope="col" className="text-left text-sm py-4">Actions</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody className="divide-y divide-gray-200">
                 { children }
             </tbody>
         </table>    
