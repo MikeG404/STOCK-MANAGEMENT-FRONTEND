@@ -20,9 +20,9 @@
         - [X] Choose the data to display in the table
         - [X] Make my own table component
         - [ ] Customize CSS
-        - [ ] Add Crud Buttons
-            - [ ] Delete
-            - [ ] Update
+        - [X] Add Crud Buttons
+            - [X] Delete
+            - [X] Update
             - [X] Create
 ## Libraries
 - React
@@ -30,3 +30,5 @@
 - React-Hook-Form
 - Axios
 - TailwindCSS
+- CLSX
+- Lucid-React
